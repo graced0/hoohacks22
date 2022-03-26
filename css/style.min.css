@@ -118,6 +118,10 @@ section {
     right: 0;
     background: #1c7c54;
     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #afc97e, #1c7c54);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   }
   .jumbotron h1 {
     line-height: .9;
@@ -176,8 +180,8 @@ section {
   border-color: #1c7c54;
   color: #fff; }
   .btn-primary:hover {
-    background-color: #333399;
-    border-color: #333399;
+    background-color: #afc97e;
+    border-color: #afc97e;
     color: #fff; }
 
 .btn-outline-primary {
@@ -206,9 +210,9 @@ section {
 .rectangle-1 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #afc97e, #8E2DE2);
-  background: linear-gradient(to right, #afc97e, #8E2DE2);
+  background: #1c7c54;
+  background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
+  background: linear-gradient(to right, #afc97e, #1c7c54);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -218,9 +222,9 @@ section {
 .rectangle-2 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #1c7c54;
+  background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
+  background: linear-gradient(to right, #afc97e, #1c7c54);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -333,7 +337,7 @@ section {
     transform: translateY(-13px); }
 
 .progress-bar {
-  background-color: #ff00cc; }
+  background-color: #1c7c54; }
 
 /*=====  End of FEATURES  ======*/
 /*=============================
@@ -354,7 +358,7 @@ section {
   padding-bottom: 50px; }
 
 .testi-icon {
-  color: #ff00cc; }
+  color: #1c7c54; }
 
 .testi-content {
   margin-top: 80px;
@@ -387,7 +391,7 @@ section {
     transition: box-shadow 0.3s ease, background-color 0.3s ease; }
   .owl-dot.active > span {
     background-color: transparent;
-    box-shadow: 0 0 0 2px #ff00cc; }
+    box-shadow: 0 0 0 2px #1c7c54; }
 
 .owl-dots {
   position: absolute;
@@ -625,7 +629,7 @@ section {
 =            FORM CONTROL            =
 ====================================*/
 .form-control:focus {
-  border-color: #ff00cc;
+  border-color: #1c7c54;
   box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25); }
 
 .form-control::-webkit-input-placeholder {
@@ -663,22 +667,22 @@ section {
     top: 0;
     height: auto;
     width: 100%;
-    background: #ff00cc;
+    background: #1c7c54;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #afc97e, #1c7c54);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
+    background: #1c7c54;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #afc97e, #1c7c54);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
