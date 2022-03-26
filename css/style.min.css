@@ -26,7 +26,7 @@ h6,
   margin-top: 0; }
 
 a {
-  color: #ff00cc;
+  color: #1c7c54;
   transition: all .3s ease-in-out; }
 
 a:focus,
@@ -36,7 +36,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #333399; }
+  color: grey; }
 
 img {
   max-width: 100%; }
@@ -116,7 +116,7 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: grey;
+    background: #1c7c54;
     /* fallback for old browsers */
   }
   .jumbotron h1 {
@@ -144,11 +144,11 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff00cc;
+    background: #1c7c54;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #afc97e, #1c7c54);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #afc97e, #1c7c54);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -172,8 +172,8 @@ section {
 
 .btn-primary {
   display: inline-block;
-  background-color: #ff00cc;
-  border-color: #ff00cc;
+  background-color: #1c7c54;
+  border-color: #1c7c54;
   color: #fff; }
   .btn-primary:hover {
     background-color: #333399;
@@ -186,8 +186,8 @@ section {
   background-image: none;
   border-color: #fff; }
   .btn-outline-primary:hover {
-    background-color: #333399;
-    border-color: #333399;
+    background-color: #afc97e;
+    border-color: #afc97e;
     color: #fff; }
 
 .btn-shadow {
@@ -197,7 +197,7 @@ section {
   color: #000; }
 
 .btn-link {
-  color: #ff00cc; }
+  color: #1c7c54; }
 
 /*=====  End of BUTTON  ======*/
 /*==========================================
@@ -207,8 +207,8 @@ section {
   width: 2000px;
   height: 400px;
   background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: -webkit-linear-gradient(to right, #afc97e, #8E2DE2);
+  background: linear-gradient(to right, #afc97e, #8E2DE2);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
