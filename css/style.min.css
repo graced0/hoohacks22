@@ -698,8 +698,9 @@ body {
 }
 
 .name {
-  font-size: 34px;
   font-family: 'Lato', sans-serif;
+  font-weight: 350;
+  font-size: 35px;
 }
 
 .idd {
