@@ -585,6 +585,8 @@ section {
 .progress-bar, .progress {
   transition: all 4s; }
 
+  
+
 /*=====  End of SKILLS  ======*/
 /*============================
 
@@ -727,8 +729,8 @@ body {
   height: 40px;
   width: 150px;
   border: none;
-  background-color: #000;
-  color: #aeaeae;
+  background-color: rgb(46, 138, 66);
+  color: #ffffff;
   font-size: 15px
 }
 
@@ -752,5 +754,6 @@ hr .new1 {
 }
 
 .date {
-  background-color: #ccc
+  background-color: rgb(143, 209, 127)
 }
+
