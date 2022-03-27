@@ -375,8 +375,8 @@ section {
 =            TESTI            =
 =============================*/
 .testi-img img {
-  height: 30px;
-  width: 30px !important;
+  height: 60px;
+  width: 60px !important;
   border-radius: 50%;
   display: inline-block !important; }
 
@@ -725,7 +725,7 @@ body {
 .follow {
   font-size: 12px;
   font-weight: 500;
-  color: #444444
+  color: #ffffff
 }
 
 .btn1 {
@@ -738,7 +738,7 @@ body {
 }
 
 .text span {
-  font-size: 15px;
+  font-size: px;
   color: #545454;
   font-weight: 500
 }
