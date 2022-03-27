@@ -686,6 +686,8 @@ body {
   transition: all 0.5s
 }
 
+
+
 .image img {
   transition: all 0.5s
 }
@@ -712,7 +714,7 @@ body {
 }
 
 .idd1 {
-  font-size: 12px
+  font-size: 14px
 }
 
 .number {
@@ -736,9 +738,13 @@ body {
 }
 
 .text span {
-  font-size: 13px;
+  font-size: 15px;
   color: #545454;
   font-weight: 500
+}
+
+.table {
+  border: 1px solid;
 }
 
 .icons i {
