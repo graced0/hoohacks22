@@ -725,7 +725,7 @@ body {
 .follow {
   font-size: 12px;
   font-weight: 500;
-  color: #ffffff
+  color: #000000
 }
 
 .btn1 {
@@ -754,7 +754,6 @@ body {
 hr .new1 {
   border: 1px solid
 }
-
 .join {
   font-size: 14px;
   color: #ffffff;
