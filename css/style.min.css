@@ -587,73 +587,7 @@ section {
 
 /*=====  End of SKILLS  ======*/
 /*============================
-=            BLOG            =
-============================*/
-.blog-item {
-  transition: all 0.3s ease-in-out;
-  background-color: #f7f8f9;
-  border-radius: 3px;
-  overflow: hidden; }
-  .blog-item:hover {
-    box-shadow: 0 5px 15px -5px #333;
-    transform: translateY(-6px);
-    -webkit-transform: translateY(-6px);
-    -moz-transform: translateY(-6px);
-    transform: translateY(-6px);
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15); }
 
-.bg-grey .blog-item {
-  background-color: #fff; }
-
-.blog-item-wrapper {
-  margin-bottom: 30px; }
-
-.blog-img img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover; }
-
-.blog-title h4 {
-  color: #000; }
-
-.blog-text {
-  padding: 15px; }
-
-.blog-tag {
-  color: #000;
-  letter-spacing: 1.1px;
-  text-transform: uppercase; }
-
-.blog-meta {
-  color: #939393; }
-  .blog-meta p {
-    display: inline-block;
-    font-size: 14px; }
-  .blog-meta a {
-    color: #939393; }
-
-.blog-author {
-  display: inline-block;
-  color: #939393; }
-  .blog-author p {
-    font-size: 14px;
-    margin-bottom: 0; }
-
-.blog-share-wrapper {
-  float: right;
-  display: inline-block;
-  margin: 0 -5px; }
-  .blog-share-wrapper .blog-share {
-    padding: 0 5px;
-    cursor: pointer; }
-
-.blog-content img.float-left {
-  margin: 15px 15px 15px 0; }
-
-.blog-content .img.float-right {
-  margin: 15px 0 15px 15px; }
 
 /*=====  End of BLOG  ======*/
 /*====================================
@@ -741,7 +675,8 @@ body {
 }
 
 .card {
-  width: 350px;
+  width: 550px;
+  padding-top: 50%;
   background-color: #efefef;
   border: none;
   cursor: pointer;
@@ -763,8 +698,8 @@ body {
 }
 
 .name {
-  font-size: 22px;
-  font-weight: bold
+  font-size: 34px;
+  font-family: 'Lato', sans-serif;
 }
 
 .idd {
@@ -812,8 +747,7 @@ hr .new1 {
 
 .join {
   font-size: 14px;
-  color: #a0a0a0;
-  font-weight: bold
+  color: #ffffff;
 }
 
 .date {
